@@ -52,4 +52,9 @@ $fileInfo->file('/abc/abc.php')->getExt(); // will return "php"
    * realPath()
       * Get realpath
    * getSize()
+   ```
+   $fileInfo = \PMVC\plug('file_info');
+   $size = $fileInfo->file('/abc/abc.php')->getSize();
+   echo $size; //transafer to readable format automatically by __tostring()
+   ```
    * getTime()
