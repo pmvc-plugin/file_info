@@ -7,22 +7,6 @@
 file_info
 ===============
 
-## How to use
-
-### Use Path only (file don't need exists)
-```
-include_once('vendor/autoload.php');
-PMVC\Load::plug();
-$fileInfo = \PMVC\plug('file_info');
-$fileInfo->path('/abc/abc.php')->getExt(); // will return "php"
-```
-#### functions
-   * getExt()
-   * getContentType()
-      * Return content-type, such as "image/png" 
-
-
-
 ## Install with Composer
 ### 1. Download composer
    * mkdir test_folder
@@ -43,3 +27,29 @@ $fileInfo->path('/abc/abc.php')->getExt(); // will return "php"
 #### 2.2 Or use composer command-line
    * php composer.phar require pmvc-plugin/file_info
 
+## How to use
+
+### Use Path only (file don't need exists)
+```
+include_once('vendor/autoload.php');
+PMVC\Load::plug();
+$fileInfo = \PMVC\plug('file_info');
+$fileInfo->path('/abc/abc.php')->getExt(); // will return "php"
+```
+#### Path functions
+   * getExt()
+   * getContentType()
+      * Return content-type, such as "image/png" 
+
+### Use with file (file need exists)
+```
+include_once('vendor/autoload.php');
+PMVC\Load::plug();
+$fileInfo = \PMVC\plug('file_info');
+$fileInfo->file('/abc/abc.php')->getExt(); // will return "php"
+```
+### File functions (extends all Path functions)
+   * realPath()
+      * Get realpath
+   * getSize()
+   * getTime()
