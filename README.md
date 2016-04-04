@@ -58,3 +58,8 @@ $fileInfo->file('/abc/abc.php')->getExt(); // will return "php"
    echo $size; //transafer to readable format automatically by __tostring()
 ```
    * getTime()
+```
+   $fileInfo = \PMVC\plug('file_info');
+   $accessTime = $fileInfo->file('/abc/abc.php')->getTime()->atime();
+   echo $accessTime; //transafer to readable format automatically by __tostring()
+```
