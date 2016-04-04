@@ -1,0 +1,17 @@
+{
+    "name": "pmvc-plugin/file_info",
+    "description": "PMVC Plugin for File information",
+    "type": "library",
+    "keywords": ["file", "pmvc", "plug-in"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hill",
+            "email": "hill@kimo.com"
+        }
+    ],
+    "require": {
+        "pmvc/pmvc": "*"
+    },
+    "minimum-stability": "dev"
+}
