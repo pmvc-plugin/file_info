@@ -10,7 +10,10 @@ File Information Plugin
 ## Table of Contents
 - [Install with Composer](#install-with-composer)
 - [How to use](#how-to-use)
+- [Introduction](#introduction)
 
+## Introduction
+This is a file information library, could help you get file size or time.
 
 ## Install with Composer
 ### 1. Download composer
