@@ -8,7 +8,8 @@ File Information Plugin
 ===============
 
 ## Table of Contents
-- [Install with Composer](#Install with Composer)
+- [Install with Composer](#install-with-composer)
+- [How to use](#how-to-use)
 
 
 ## Install with Composer
