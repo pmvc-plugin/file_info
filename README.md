@@ -4,8 +4,12 @@
 [![License](https://poser.pugx.org/pmvc-plugin/file_info/license)](https://packagist.org/packages/pmvc-plugin/file_info)
 [![Total Downloads](https://poser.pugx.org/pmvc-plugin/file_info/downloads)](https://packagist.org/packages/pmvc-plugin/file_info) 
 
-file_info
+File Information Plugin
 ===============
+
+## Table of Contents
+- [Install with Composer](#Install with Composer)
+
 
 ## Install with Composer
 ### 1. Download composer
