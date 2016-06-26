@@ -1,6 +1,6 @@
 <?php
 PMVC\Load::plug();
-PMVC\addPlugInFolder('../');
+PMVC\addPlugInFolders(['../']);
 class File_infoTest extends PHPUnit_Framework_TestCase
 {
     private $_plug = 'file_info';
