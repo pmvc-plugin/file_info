@@ -22,8 +22,8 @@ class FilePath
         $plug = \PMVC\plug('file_info');
         $ext = $this->getExt();
         if ($plug->isCallable($ext)) {
-            return call_user_func([$plug, $this->getExt()])
-                ->getContentType();
+          return $plug->
+            getContentType($this->getExt());
         }
     }
 }

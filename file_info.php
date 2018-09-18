@@ -15,4 +15,11 @@ class file_info extends \PMVC\PlugIn
     {
         return new File($path);
     }
+
+    public function getContentType($ext)
+    {
+      return call_user_func(
+        [$this, $ext]
+      )->getContentType();
+    }
 }
